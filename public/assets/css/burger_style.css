@@ -1,23 +1,22 @@
-.container  {
-	background: #7a4db6
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background: lavender;
+    text-align: center;
 }
-
-h1  {
-	font-size: 70px;
-	text-align:center;
+header {
+    font-size: 300%;
+    background: pink;
 }
+ul {
+    list-style: none;
+    clear: both;
 
-
-.panel  {
-	width:45%;
-	position:relative;
-	float:left;
-	margin:15px;
 }
-
-#add    {
-	width:90%;
-	padding-bottom:100px;
-	clear:left;
-	text-align:center;
+button {
+    word-wrap: break-word;
+    margin: 1%;
+    
+}
+button:hover {
+    background-color: gray;
 }

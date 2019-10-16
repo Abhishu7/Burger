@@ -1,12 +1,7 @@
-### Schema
+USE burgers_db
 
-CREATE DATABASE burger_db;
-USE burger_db;
+INSERT INTO burger (name, devoured) VALUES ('cheeseburger', TRUE);
+INSERT INTO burger (name, devoured) VALUES ('hamburger', TRUE);
+INSERT INTO burger (name, devoured) VALUES ('baconburger', FALSE);
 
-CREATE TABLE burgers
-(
-	id int NOT NULL AUTO_INCREMENT,
-	name varchar(255) NOT NULL,
-	devoured BOOLEAN DEFAULT false,
-	PRIMARY KEY (id)
-);
+SELECT * FROM burger;
