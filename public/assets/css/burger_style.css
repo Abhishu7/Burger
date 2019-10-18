@@ -7,16 +7,19 @@ header {
     font-size: 300%;
     background: pink;
 }
+#burgerpic {
+    height: 10%;
+    width: 10%;
+    background-color: powderblue;
+  }
 ul {
     list-style: none;
     clear: both;
-
 }
 button {
     word-wrap: break-word;
-    margin: 1%;
-    
+    margin: 1%; 
 }
 button:hover {
-    background-color: gray;
+    background-color: orangered;
 }
